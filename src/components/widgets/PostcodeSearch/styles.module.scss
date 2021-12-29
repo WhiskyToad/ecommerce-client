@@ -1,0 +1,22 @@
+@import 'src/styles/_globalVariables.scss';
+
+.container {
+    padding: 1rem;
+    border-radius: $border-regular;
+    background-color: $white;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    max-width: 600px;
+    margin: auto;
+    margin-top: -10rem;
+    position: relative;
+    z-index: 1;
+
+    h2 {
+        font-size: $font-size-larger;
+    }
+    
+    p {
+        font-size: $font-size-large;
+    }
+}
