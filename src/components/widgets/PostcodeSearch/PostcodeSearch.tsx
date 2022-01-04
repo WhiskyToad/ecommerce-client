@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Button from '../../ui/Button/Button'
-import { ButtonSizes, ButtonVariant } from '../../ui/Button/Button.types'
-import SearchInput from '../../ui/Inputs/SearchInput/SearchInput'
+import Button from '../../ui/components/Button/Button'
+import { ButtonSizes, ButtonVariant } from '../../ui/components/Button/Button.types'
+import SearchInput from '../../ui/components/Inputs/SearchInput/SearchInput'
 import styles from './styles.module.scss'
 
 const PostcodeSearch = () => {
